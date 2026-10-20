@@ -1,0 +1,21 @@
+# 本地配置 —— 里面是你的 key，不进仓库
+config.json
+
+# 原子写留下的临时文件
+room.json.tmp
+
+# 项目特有词：给 check-clean.mjs 用的私人词表，不进仓库
+.private-terms
+
+# Python
+__pycache__/
+*.pyc
+
+# 日志
+*.log
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

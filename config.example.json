@@ -1,0 +1,18 @@
+{
+  "host": "127.0.0.1",
+  "port": 8765,
+
+  "llm": {
+    "base_url": "https://api.openai.com/v1",
+    "api_key": "sk-在这里填你自己的",
+    "model": "gpt-4o-mini"
+  },
+
+  "tts": {
+    "base_url": "",
+    "api_key": "",
+    "model": "tts-1",
+    "voice": "alloy",
+    "format": "mp3"
+  }
+}
